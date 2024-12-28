@@ -1,0 +1,62 @@
+div {
+    text-align: center;
+}
+
+div a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+div a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    div a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+}
+.user {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.user-card {
+    flex: 1 1 calc(25% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-card h4 {
+    margin: 10px 0 5px;
+    text-align: center;
+}
+.user-card p {
+    margin: 5px 0;
+    text-align: center;
+}
+.user-card a {
+    text-decoration: none;
+    color: white;
+}
+.user-card a:hover {
+    text-decoration: underline;
+    color: white;
+}
